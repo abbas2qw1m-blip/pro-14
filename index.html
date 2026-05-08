@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="style1.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form||login</title>
+</head>
+
+<body>
+  <header><span class="logo"><img src="/icon.svg" alt="icon"></span></header>
+  <div class="con">
+    <div class="imgs"><img src="/img.svg" alt="img"></div>
+    <div class="form">
+      <form>
+        <h2 style="--i:1;">SIGN IN</h2>
+        <h5 style="--i:2;">Sign in with email address</h5>
+        <input style="--i:3;" type="text" name="text" required="" autocomplete="off" id="a" class="inp"
+          placeholder="Yourname@gmail.com">
+        <br style="--i:4;">
+        <button onclick="window.alert('cant sign in')" class="btn" style="--i:5;" type="submit">Sign up</button>
+        <hr style="--i:6;">
+        <h6 style="--i:7;">Don't have an account?<a href="#" onclick="window.alert('ERR_can_not_find_the_server')">Sign
+            up</a></h6>
+        <div style="--i:8;" class="btnc">
+          <button onclick="window.alert('cant sign in with google')" style="--i:9;" type="submit" class="btn1">
+            <img src="icon2.svg" alt="icon"> Sign in with Google</button>
+          <button onclick="window.alert('cant sign in with facebook')" style="--i:10;" type="submit" class="btn2">
+            <img src="icon3.svg" alt="icon">
+            Sign in with Facebook</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script>
+    window.alert("this a simple form");
+  </script>
+</body>
+
+</html>
